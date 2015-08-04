@@ -46,7 +46,7 @@
                 <label class="filter-variant" for="filter-apartment">Апартаменты</label>
             </div>
             <div class="filter-price">
-                <p class="filter-price-title">Стоимость в сутки (₽):</p>
+                <p class="filter-price-title">Стоимость в сутки (Р):</p>
                 <div class="filter-price-controll">
                     <div class="filter-price-boundaries">
                         <input type="text" value="0" required>
@@ -61,14 +61,82 @@
                 <button class="filter-btn" type="submit">Показать</button>
             </div>
         </form>
-        <div class="result-options clearfix">
+        <div class="options clearfix">
             <span>Найдено: 3</span>
-            <div class="result-options-parameters">
-                <a href="#" class="result-options-variant result-options-price result-options-active">По цене</a>
-                <a href="#" class="result-options-variant result-options-type">По типу</a>
-                <a href="#" class="result-options-variant result-options-functions">По функционалу</a>
-                <label class="result-up-arrow result-options-active"></label>
-                <label class="result-down-arrow"></label>
+            <div class="options-parameters">
+                <a href="#" class="options-variant options-price options-active">По цене</a>
+                <a href="#" class="options-variant options-type">По типу</a>
+                <a href="#" class="options-variant options-functions">По рейтингу</a>
+                <label class="options-up-arrow options-active"></label>
+                <label class="options-down-arrow"></label>
+            </div>
+        </div>
+        <div class="result">
+            <div class="result-housing clearfix">
+                <figure class="result-housing-img">
+                    <img src="img/result-hotel-amara.jpg" alt="Amara resort & spa">
+                </figure>
+                <div class="result-housing-infoblock">
+                    <p class="result-infoblock-title">Amara resort & spa</p>
+                    <div class="result-about clearfix">
+                        <div class="result-about-housing">
+                            <p class="result-housing-type">Гостиница</p>
+                            <a class="result-housing-bny" href="#">Подробнее</a>
+                        </div>
+                        <div class="result-about-booking">
+                            <p class="result-about-price">от 3500 Р.</p>
+                            <a class="result-booking-btn" href="#">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-housing-ratings">
+                    <div class="result-ratings-good"></div>
+                    <p class="result-mark">Рейтинг: 8,5</p>
+                </div>
+            </div>
+            <div class="result-housing clearfix">
+                <figure class="result-housing-img">
+                    <img src="img/result-hotel-desert.jpg" alt="Desert quail inn">
+                </figure>
+                <div class="result-housing-infoblock">
+                    <p class="result-infoblock-title">Desert quail inn</p>
+                    <div class="result-about clearfix">
+                        <div class="result-about-housing">
+                            <p class="result-housing-type">Мотель</p>
+                            <a class="result-housing-bny" href="#">Подробнее</a>
+                        </div>
+                        <div class="result-about-booking">
+                            <p class="result-about-price">от 2000 Р.</p>
+                            <a class="result-booking-btn" href="#">Забронировать</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="result-housing-ratings">
+                    <div class="result-ratings-bad"></div>
+                    <p class="result-mark">Рейтинг: 8,9</p>                    
+                </div>
+            </div>
+            <div class="result-housing clearfix">
+                <figure class="result-housing-img">
+                    <img src="img/result-hotel-villas.jpg" alt="Villas at poco diablo">
+                </figure>
+                <div class="result-housing-infoblock">
+                    <p class="result-infoblock-title">Villas at poco diablo</p>
+                    <div class="result-about clearfix">
+                        <div class="result-about-housing">
+                            <p class="result-housing-type">Апартаменты</p>
+                            <a class="result-housing-bny" href="#">Подробнее</a>
+                        </div>
+                        <div class="result-about-booking">
+                            <p class="result-about-price">от 4000 Р.</p>
+                            <a class="result-booking-btn" href="#">Забронировать</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="result-housing-ratings">
+                    <div class="result-ratings-normal"></div>
+                    <p class="result-mark">Рейтинг: 9,2</p>
+                </div>
             </div>
         </div>
     </main>
