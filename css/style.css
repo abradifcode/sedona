@@ -1,1 +1,43 @@
-/* font-family: 'PT Sans', sans-serif; */
+@charset "utf-8";
+
+body {
+    min-width: 768px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+p,
+ul,
+h3,
+h2,
+h1,
+input,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    line-height: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    min-width: 768px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
