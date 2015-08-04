@@ -14,4 +14,44 @@
 </head>
 
 <body>
+    <header class="container">
+        <nav class="menu">
+            <a href="#">Информация</a>
+            <a href="#">Фото и видео</a>
+            <a href="index.html" class="menu-logo">
+                <img src="img/menu-logo.png" alt="">
+            </a>
+            <a href="#">Карта штата</a>
+            <a href="#">Гостиницы</a>
+        </nav>
+    </header>
+    <footer class="container">
+        <p class="footer-hashtag">#visitsedona</p>
+        <div class="footer-social">
+            <a class="footer-social-tw" href="#"></a>
+            <a class="footer-social-fb" href="#"></a>
+            <a class="footer-social-ytb" href="#"></a>
+        </div>
+        <p class="footer-copyright">
+            <span class="footer-copyright-introduction">Website by</span>
+            <a class="footer-copyright-glukhanko" href="#"></a>
+            <span class="footer-copyright-introduction">for</span>
+            <a class="footer-copyright-htmlacademy" href="#"></a>
+        </p>
+    </footer>
+    <form class="offer-form" method="post" action="/search">
+        <div class="offer-form-dates">
+            <label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
+            <input type="date" id="offer-arrive-date" required>
+            <label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
+            <input type="date" id="offer-departure-date" required>
+        </div>
+        <div class="offer-tourists-amount">
+            <label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
+            <input type="text" id="offer-audit-adult" required>
+            <label class="offer-form-label" for="offer-audit-junior">Детей:</label>
+            <input type="text" id="offer-audit-junior" required>            
+        </div>
+        <button class="offer-form-btn" type="submit">Найти</button>
+    </form>    
 </body>
