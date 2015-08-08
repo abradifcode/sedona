@@ -1,10 +1,11 @@
 @charset "utf-8";
-
 body {
     min-width: 768px;
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: "PT Sans", sans-serif, Arial;
+    text-transform: uppercase;
 }
 
 p,
@@ -40,4 +41,124 @@ label {
     min-width: 768px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.menu a {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #81b3d2;
+}
+
+.menu a:active {
+    color: rgba(0, 0, 0, .3);
+}
+
+.menu .menu-active {
+    color: #766357;
+}
+
+.menu .menu-active:hover {
+    color: #604e43;
+}
+
+.menu .menu-active:active {
+    color: rgba(118, 99, 87, .3);
+}
+
+.filter-price-title,
+.filter-housing-title,
+.filter-infrastructure-title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.filter-btn,
+.filter-variant,
+.filter-price-controll {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.options-found,
+.footer-hashtag,
+.result-infoblock-title {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.options-variant,
+.options-parameters span {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+.options-variant {
+    color: rgba(0, 0, 0, .3);
+    border-bottom: 1px dotted #81b3d2;
+}
+
+.options-active {
+    color: #81b3d2;
+    border-bottom-color: transparent;
+}
+
+.options-variant:hover {
+    color: #81b3d2;
+}
+
+.options-variant:active {
+    color: #000000;
+    border-bottom-color: transparent;
+}
+
+.result-about-price,
+.result-housing-type {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.result-booking-btn,
+.result-housing-more {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.result-booking-btn:active,
+.result-housing-more:active {
+    color: rgba(255, 255, 255, .3);
+}
+
+.result-mark {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #666666;    
+}
+
+.footer-copyright-introduction {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;    
 }
