@@ -26,41 +26,42 @@
         </nav>
     </header>
     <main class="container">
-        <form class="filter" method="post" action="/filter">
-            <div class="filter-infrastructure">
-                <p class="filter-infrastructure-title">Инфраструктура:</p>
-                <input type="checkbox" id="filter-pool" checked>
-                <label class="filter-variant" for="filter-pool">Бассейн</label>
-                <input type="checkbox" id="filter-parking">
-                <label class="filter-variant" for="filter-parking">Парковка</label>
-                <input type="checkbox" id="filter-wifi">
-                <label class="filter-variant" for="filter-wifi">wi-fi</label>
-            </div>
-            <div class="filter-housing">
-                <p class="filter-housing-title">Тип жилья:</p>
-                <input type="checkbox" id="filter-hotel" checked>
-                <label class="filter-variant" for="filter-hotel">Гостиница</label>
-                <input type="checkbox" id="filter-motel" checked>
-                <label class="filter-variant" for="filter-motel">Мотель</label>
-                <input type="checkbox" id="filter-apartment" checked>
-                <label class="filter-variant" for="filter-apartment">Апартаменты</label>
-            </div>
-            <div class="filter-price">
-                <p class="filter-price-title">Стоимость в сутки (Р):</p>
-                <div class="filter-price-controll">
-                    <div class="filter-price-boundaries">
-                        <input type="text" value="0" required>
-                        <span>|</span>
-                        <input type="text" value="30000" required>
-                    </div>
-                    <div class="filter-price-scale">
-                        <div class="filter-scale-toggle filter-min-toggle"></div>
-                        <div class="filter-scale-toggle filter-max-toggle"></div>
-                    </div>
+        <div class="filter clearfix">
+            <form method="post" action="/filter">
+                <div class="filter-infrastructure">
+                    <p class="filter-infrastructure-title">Инфраструктура:</p>
+                    <input type="checkbox" id="filter-pool" disabled>
+                    <label class="filter-variant" for="filter-pool">Бассейн</label>
+                    <input type="checkbox" id="filter-parking">
+                    <label class="filter-variant" for="filter-parking">Парковка</label>
+                    <input type="checkbox" id="filter-wifi">
+                    <label class="filter-variant" for="filter-wifi">wi-fi</label>
                 </div>
-                <button class="filter-btn" type="submit">Показать</button>
-            </div>
-        </form>
+                <div class="filter-housing">
+                    <p class="filter-housing-title">Тип жилья:</p>
+                    <input type="checkbox" id="filter-hotel" checked>
+                    <label class="filter-variant" for="filter-hotel">Гостиница</label>
+                    <input type="checkbox" id="filter-motel" checked>
+                    <label class="filter-variant" for="filter-motel">Мотель</label>
+                    <input type="checkbox" id="filter-apartment" checked disabled>
+                    <label class="filter-variant" for="filter-apartment">Апартаменты</label>
+                </div>
+                <div class="filter-price">
+                    <p class="filter-price-title">Стоимость в сутки (Р):</p>
+                    <div class="filter-price-controll">
+                        <div class="filter-price-boundaries">
+                            <input type="text" value="От 0" required>
+                            <input type="text" value="До 30000" required>
+                        </div>
+                        <div class="filter-price-scale">
+                            <div class="filter-scale-toggle filter-min-toggle"></div>
+                            <div class="filter-scale-toggle filter-max-toggle"></div>
+                        </div>
+                    </div>
+                    <button class="filter-btn" type="submit">Показать</button>
+                </div>
+            </form>
+        </div>
         <div class="options clearfix">
             <span class="options-found">Найдено: 3</span>
             <div class="options-parameters">
@@ -68,8 +69,8 @@
                 <a href="#" class="options-variant options-price options-active">По цене</a>
                 <a href="#" class="options-variant options-type">По типу</a>
                 <a href="#" class="options-variant options-functions">По рейтингу</a>
-                <label class="options-up-arrow options-active"></label>
-                <label class="options-down-arrow"></label>
+                <a class="options-up-arrow options-active" href="#"></a>
+                <a class="options-down-arrow" href="#"></a>
             </div>
         </div>
         <div class="result">
