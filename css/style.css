@@ -101,6 +101,15 @@ label {
     line-height: 26px;
     font-weight: 700;
     color: #000000;
+    text-decoration: none;
+}
+
+.result-infoblock-title:hover {
+    color: #81b3d2;
+}
+
+.result-infoblock-title:active {
+    color: rgba(0, 0, 0, .3);
 }
 
 .options-variant,
