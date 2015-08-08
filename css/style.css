@@ -613,3 +613,11 @@ input:checked + .filter-variant:before {
 .options-down-arrow:active:before {
     border-color: #81b3d2 transparent transparent transparent;     
 }
+
+.options-up-arrow.options-active:before {
+    border-color: transparent transparent #81b3d2 transparent;    
+}
+
+.options-down-arrow.options-active:before {
+    border-color: #81b3d2 transparent transparent transparent;     
+}
