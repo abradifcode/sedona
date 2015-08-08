@@ -143,11 +143,19 @@ label {
     color: rgba(0, 0, 0, .3);
 }
 
-.options-variant,
-.options-parameters span {
+.options span,
+.options-variant {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+.options .options-found {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
     color: #000000;
     text-decoration: none;
 }
