@@ -43,7 +43,9 @@ label {
     margin: 0 auto;
 }
 
-.menu a {
+.menu a,
+.offer-form-label,
+.offer-tourists-amount input {
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
@@ -92,7 +94,9 @@ label {
 
 .options-found,
 .footer-hashtag,
-.result-infoblock-title {
+.benefits-block-title,
+.result-infoblock-title,
+.description-definition {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
@@ -128,11 +132,24 @@ label {
 }
 
 .result-about-price,
-.result-housing-type {
+.result-housing-type,
+.benefits-block-about,
+.city-description-about,
+.benefits-numbers-block,
+.city-description-subtitle,
+.country-description-about,
+.country-description-subtitle {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     color: #000000;
+}
+
+.city-description-about,
+.country-description-about,
+.city-description-subtitle,
+.country-description-subtitle {
+    color: #ffffff;
 }
 
 .result-booking-btn,
@@ -153,12 +170,47 @@ label {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-    color: #666666;    
+    color: #666666;
 }
 
+.description-info,
 .footer-copyright-introduction {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
-    color: #000000;    
+    color: #000000;
+}
+
+.offer-btn,
+.offer-form-btn,
+.city-description-title,
+.country-description-title {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.offer-btn:active,
+.offer-form-btn:active {
+    color: rgba(255, 255, 255, .3);
+}
+
+.offer-title {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.offer-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.offer-tourists-amount input {
+    text-transform: none
 }
