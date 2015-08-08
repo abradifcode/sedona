@@ -251,14 +251,14 @@ label {
 .card-greetings {
     font-family: "sullivanfill", sans-serif, Arial;
     font-size: 63px;
-    line-height: 63px;
+    line-height: 70px;
     color: #81b3d2;
 }
 
 .card-subgreetings {
     font-family: "wisdom_scriptregular", sans-serif, Arial;
     font-size: 29px;
-    line-height: 29px;
+    line-height: 44px;
     color: #766357;
     text-transform: none;
 }
@@ -266,14 +266,14 @@ label {
 .card-title {
     font-family: "zeroneroblack", sans-serif, Arial;
     font-size: 116px;
-    line-height: .8;
+    line-height: 142px;
     color: #ffffff;    
 }
 
 .card-slogan {
     font-family: "wisdom_scriptregular", sans-serif, Arial;
     font-size: 36.7px;
-    line-height: 1;
+    line-height: 55px;
     text-transform: none;
     color: #ffffff;    
 }
