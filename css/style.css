@@ -561,6 +561,7 @@ input:checked + .filter-variant:before {
 .options-right-column {
     float: right;
     width: 70px;
+    text-align: right;
     padding-top: 12px;
     margin-right: 5%;
     font-size: 0;
@@ -581,6 +582,8 @@ input:checked + .filter-variant:before {
 .options-up-arrow:before,
 .options-down-arrow:before {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 0;
     height: 0;
     border-style: solid;
