@@ -387,6 +387,11 @@ input + .filter-variant:hover:before {
     content: "";
 }
 
+input:checked + .filter-variant:hover:before {
+    background: -380px -2px no-repeat url("../img/sprite.png");
+    content: "";
+}
+
 input:disabled + .filter-variant:before {
     background: -406px -1px no-repeat url("../img/sprite.png");
     content: "";
@@ -398,7 +403,7 @@ input:checked:disabled + .filter-variant:before {
 }
 
 input:checked + .filter-variant:before {
-    background: -380px -2px no-repeat url("../img/sprite.png");
+    background: -380px -33px no-repeat url("../img/sprite.png");
     content: "";
 }
 
