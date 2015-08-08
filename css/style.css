@@ -1,24 +1,24 @@
 @charset "utf-8";
 @font-face {
     font-family: 'wisdom_scriptregular';
-    src: url('../fonts/wisdom_script_aj-webfont.eot');
-    src: url('../fonts/wisdom_script_aj-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/wisdom_script_aj-webfont.woff') format('woff'), url('../fonts/wisdom_script_aj-webfont.ttf') format('truetype');
+    src: url('../font/wisdom_script_aj-webfont.eot');
+    src: url('../font/wisdom_script_aj-webfont.eot?#iefix') format('embedded-opentype'), url('../font/wisdom_script_aj-webfont.woff') format('woff'), url('../font/wisdom_script_aj-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sullivanfill';
-    src: url('../fonts/sullivan-fill-webfont.eot');
-    src: url('../fonts/sullivan-fill-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/sullivan-fill-webfont.woff') format('woff'), url('../fonts/sullivan-fill-webfont.ttf') format('truetype'), url('../fonts/sullivan-fill-webfont.svg#sullivanfill') format('svg');
+    src: url('../font/sullivan-fill-webfont.eot');
+    src: url('../font/sullivan-fill-webfont.eot?#iefix') format('embedded-opentype'), url('../font/sullivan-fill-webfont.woff') format('woff'), url('../font/sullivan-fill-webfont.ttf') format('truetype'), url('../font/sullivan-fill-webfont.svg#sullivanfill') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'zeroneroblack';
-    src: url('../fonts/zeronero-webfont.eot');
-    src: url('../fonts/zeronero-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/zeronero-webfont.woff') format('woff'), url('../fonts/zeronero-webfont.ttf') format('truetype'), url('../fonts/zeronero-webfont.svg#zeroneroblack') format('svg');
+    src: url('../font/zeronero-webfont.eot');
+    src: url('../font/zeronero-webfont.eot?#iefix') format('embedded-opentype'), url('../font/zeronero-webfont.woff') format('woff'), url('../font/zeronero-webfont.ttf') format('truetype'), url('../font/zeronero-webfont.svg#zeroneroblack') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -246,4 +246,34 @@ label {
 
 .offer-tourists-amount input {
     text-transform: none
+}
+
+.card-greetings {
+    font-family: 'sullivanfill', sans-serif, Arial;
+    font-size: 63px;
+    line-height: 63px;
+    color: #81b3d2;
+}
+
+.card-subgreetings {
+    font-family: 'wisdom_scriptregular', sans-serif, Arial;
+    font-size: 29px;
+    line-height: 29px;
+    color: #766357;
+    text-transform: none;
+}
+
+.card-title {
+    font-family: 'zeroneroblack', sans-serif, Arial;
+    font-size: 116px;
+    line-height: .8;
+    color: #ffffff;    
+}
+
+.card-slogan {
+    font-family: 'wisdom_scriptregular', sans-serif, Arial;
+    font-size: 36.7px;
+    line-height: 1;
+    text-transform: none;
+    color: #ffffff;    
 }
