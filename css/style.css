@@ -328,19 +328,17 @@ label {
 .filter-housing,
 .filter-infrastructure {
     box-sizing: border-box;
+    float: left;
     width: 256px;
+    padding-left: 6%;
 }
 
 .filter-price {
     box-sizing: border-box;
-    text-align: center;
     width: 33%;
-}
-
-.filter-housing,
-.filter-infrastructure {
-    float: left;
-    padding-left: 5%;
+    float: right;
+    padding-right: 7%;
+    text-align: center;
 }
 
 .filter-housing input,
@@ -348,20 +346,15 @@ label {
     display: none;
 }
 
-.filter-price {
-    float: right;
-    padding-right: 5%;
-}
-
 .filter-housing-title,
 .filter-infrastructure-title {
-    margin-bottom: 28px;
+    margin-bottom: 24px;
 }
 
 .filter-variant {
     position: relative;
     display: block;
-    margin-bottom: 31px;
+    margin-bottom: 27px;
     margin-left: 40px;
 }
 
@@ -386,37 +379,33 @@ input:checked + .filter-variant:before {
 
 input + .filter-variant:hover:before {
     background: -406px -62px no-repeat url("../img/sprite.png");
-    content: "";
 }
 
 input:checked + .filter-variant:hover:before {
     background: -380px -2px no-repeat url("../img/sprite.png");
-    content: "";
 }
 
 input:disabled + .filter-variant:before {
     background: -406px -1px no-repeat url("../img/sprite.png");
-    content: "";
 }
 
 input:checked:disabled + .filter-variant:before {
     background: -380px -63px no-repeat url("../img/sprite.png");
-    content: "";
 }
 
 input:checked + .filter-variant:before {
     background: -380px -33px no-repeat url("../img/sprite.png");
-    content: "";
 }
 
 .filter-price-title {
-    margin-bottom: 12px;
+    margin-bottom: 9px;
+    text-align: left;
 }
 
 .filter-price-boundaries {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 11px;
     font-size: 0;
     border: 2px solid #ffffff;
     border-radius: 5px;
@@ -443,13 +432,13 @@ input:checked + .filter-variant:before {
 .filter-price-scale {
     position: relative;
     min-height: 20px;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
 }
 
 .filter-price-scale:before {
     position: absolute;
     top: 9px;
-    left: 10%;
+    left: 0;
     right: 10%;
     height: 2px;
     background-color: rgba(255, 255, 255, .3);
@@ -459,8 +448,8 @@ input:checked + .filter-variant:before {
 .filter-price-scale:after {
     position: absolute;
     top: 9px;
-    left: 10%;
-    right: 25%;
+    left: 0;
+    right: 15%;
     height: 2px;
     background-color: #ffffff;
     content: "";
@@ -493,17 +482,17 @@ input:checked + .filter-variant:before {
 }
 
 .filter-min-toggle {
-    left: 10%;
+    left: 0%;
 }
 
 .filter-max-toggle {
-    right: 25%;
+    right: 15%;
 }
 
 .filter-btn {
     width: 136px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border: 2px solid #ffffff;
     background-color: transparent;
     border-radius: 5px;
