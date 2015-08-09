@@ -11,11 +11,12 @@ function initialize() {
         document.querySelector(".map-script"),
         mapOptions
     );
-
+    var image = "img/map-marker.png"; 
     var myLatLng = new google.maps.LatLng(x, y);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
-        map: map
+        map: map,
+        icon: image
     });
 }
 google.maps.event.addDomListener(window, "load", initialize);

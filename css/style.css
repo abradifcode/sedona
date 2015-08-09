@@ -1352,3 +1352,8 @@ input:focus+.offer-col-controls:after {
     height: 473px;
     overflow: hidden;
 }
+
+.map-script {
+    height: 473px;
+    width: 100%;
+}
