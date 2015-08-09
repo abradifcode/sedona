@@ -900,7 +900,7 @@ footer {
 }
 
 .offer-form-row input {
-    position: relative;    
+    position: relative;
     display: inline-block;
     vertical-align: middle;
     width: 301px;
@@ -909,7 +909,7 @@ footer {
     padding-left: 15px;
     padding-right: 30px;
     border-style: none;
-    background-color: #f2f2f2;    
+    background-color: #f2f2f2;
 }
 
 .offer-form input:hover {
@@ -940,13 +940,6 @@ footer {
     text-align: left;
 }
 
-.offer-form-col input {
-    width: 32px;
-    padding-left: 41px;
-    padding-right: 41px;
-    text-align: center;
-}
-
 .offer-form-dates input:after {
     position: absolute;
     width: 21px;
@@ -956,9 +949,58 @@ footer {
 }
 
 .offer-form-dates input:hover:after {
-    background: -163px -93px no-repeat url("../img/sprite.png");    
+    background: -163px -93px no-repeat url("../img/sprite.png");
 }
 
 .offer-form-dates input:focus:after {
-    background: -194px -93px no-repeat url("../img/sprite.png");    
+    background: -194px -93px no-repeat url("../img/sprite.png");
+}
+
+.offer-form-col input {
+    width: 32px;
+    padding-left: 41px;
+    padding-right: 41px;
+    text-align: center;
+}
+
+.offer-col-controls {
+    position: relative;
+}
+
+.offer-col-controls:before {
+    position: absolute;
+    top: -19px;
+    left: 130px;
+    height: 0;
+    width: 11px;
+    height: 11px;
+    background: -237px -88px no-repeat url("../img/sprite.png");
+    content: "";
+}
+
+input:hover+.offer-col-controls:before {
+    background: -237px -103px no-repeat url("../img/sprite.png");    
+}
+
+input:focus+.offer-col-controls:before {
+    background: -237px -118px no-repeat url("../img/sprite.png");    
+}
+
+.offer-col-controls:after {
+    position: absolute;
+    top: -23px;
+    right: -94px;
+    height: 0;
+    width: 11px;
+    height: 11px;
+    background: -262px -84px no-repeat url("../img/sprite.png");
+    content: "";
+}
+
+input:hover+.offer-col-controls:after {
+    background: -262px -99px no-repeat url("../img/sprite.png");    
+}
+
+input:focus+.offer-col-controls:after {
+    background: -262px -114px no-repeat url("../img/sprite.png");    
 }
