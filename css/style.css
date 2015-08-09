@@ -1294,16 +1294,13 @@ input:focus+.offer-col-controls:after {
 }
 
 .benefits-shorty {
-    height: 255px;
     min-height: 255px;
     background-color: #eeeeee;
 }
 
-.benefits-road,
-.benefits-square,
-.benefits-tourist {
+.benefits-shorty .benefits-block {
+    min-height: 255px;
     padding-top: 47px;
-    margin-bottom: 8px;
 }
 
 .benefits-block-subtitle {
