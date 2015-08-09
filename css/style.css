@@ -1109,7 +1109,7 @@ input:focus+.offer-col-controls:after {
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-    width: 33.33%;
+    width: 33%;
     height: 310px;
     padding-top: 5%;
     padding-left: 5%;
@@ -1127,7 +1127,7 @@ input:focus+.offer-col-controls:after {
 .city-view {
     display: inline-block;
     vertical-align: top;
-    width: 66.66%;
+    width: 67%;
 }
 
 .city-view img {
@@ -1237,7 +1237,7 @@ input:focus+.offer-col-controls:after {
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-    width: 33.33%;
+    width: 33%;
     height: 310px;
     padding-top: 5%;
     padding-left: 5%;
@@ -1255,7 +1255,7 @@ input:focus+.offer-col-controls:after {
 .country-view {
     display: inline-block;
     vertical-align: top;
-    width: 66.66%;
+    width: 67%;
 }
 
 .country-view img {
