@@ -1107,7 +1107,7 @@ input:focus+.offer-col-controls:after {
     vertical-align: top;
     width: 33%;
     height: 310px;
-    padding-top: 5%;
+    padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #81b3d2;
@@ -1120,6 +1120,11 @@ input:focus+.offer-col-controls:after {
     text-align: center;
 }
 
+.city-description-title {
+    width: 130px;
+    margin-bottom: 15px;
+}
+
 .city-view {
     display: inline-block;
     vertical-align: top;
@@ -1129,10 +1134,6 @@ input:focus+.offer-col-controls:after {
 .city-view img {
     display: block;
     width: 100%;
-}
-
-.city-description-title {
-    margin-bottom: 15px;
 }
 
 .benefits-block-subtitle,
@@ -1190,7 +1191,7 @@ input:focus+.offer-col-controls:after {
     width: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 21px;
 }
 
 .benefits-housing .benefits-block-title:before {
@@ -1235,7 +1236,7 @@ input:focus+.offer-col-controls:after {
     vertical-align: top;
     width: 33%;
     height: 310px;
-    padding-top: 5%;
+    padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #81b3d2;
@@ -1248,6 +1249,11 @@ input:focus+.offer-col-controls:after {
     text-align: center;
 }
 
+.country-description-title {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
 .country-view {
     display: inline-block;
     vertical-align: top;
@@ -1257,10 +1263,6 @@ input:focus+.offer-col-controls:after {
 .country-view img {
     display: block;
     width: 100%;
-}
-
-.country-description-title {
-    margin-bottom: 15px;
 }
 
 .country-description-subtitle {
@@ -1299,6 +1301,10 @@ input:focus+.offer-col-controls:after {
     padding-top: 47px;
 }
 
+.benefits-shorty .benefits-block-title {
+    margin-bottom: 12px;
+}
+
 .benefits-block-subtitle {
     margin-right: auto;
     margin-left: auto;
@@ -1306,7 +1312,7 @@ input:focus+.offer-col-controls:after {
 }
 
 .offer {
-    padding-top: 50px;
+    padding-top: 57px;
     text-align: center;
 }
 
@@ -1325,7 +1331,7 @@ input:focus+.offer-col-controls:after {
     display: block;
     width: 570px;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 31px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
