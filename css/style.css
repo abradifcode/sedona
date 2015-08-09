@@ -940,11 +940,6 @@ footer {
     text-align: left;
 }
 
-.offer-form-col label,
-.offer-form-col input {
-    display: inline-block;
-}
-
 .offer-form-col input {
     width: 32px;
     padding-left: 41px;
