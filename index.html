@@ -130,11 +130,11 @@
             <div class="offer-form-row clearfix">
                 <div class="offer-form-col offer-col-adult clearfix">
                     <label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
-                    <input type="text" id="offer-audit-adult" required>
+                    <input type="number" id="offer-audit-adult" min="1" value="1" required>
                 </div>
                 <div class="offer-form-col offer-col-junior clearfix">
                     <label class="offer-form-label" for="offer-audit-junior">Детей:</label>
-                    <input type="text" id="offer-audit-junior" required>
+                    <input type="number" id="offer-audit-junior" min="0" value="0" required>
                 </div>
             </div>
             <button class="offer-form-btn" type="submit">Найти</button>
