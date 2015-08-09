@@ -90,7 +90,36 @@
         <div class="offer">
             <p class="offer-title">Заинтересовались?</p>
             <p class="offer-info">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-            <a class="offer-btn" href="#">Поиск гостиницы в Седоне</a>
+            <div class="offer-block">
+                <a class="offer-btn" href="#">Поиск гостиницы в Седоне</a>
+                <div class="offer-form">
+                    <form method="post" action="/search">
+                        <div class="offer-form-dates">
+                            <div class="offer-form-row clearfix">
+                                <label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
+                                <input type="date" id="offer-arrive-date" required>
+                            </div>
+                            <div class="offer-form-row clearfix">
+                                <label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
+                                <input type="date" id="offer-departure-date" required>
+                            </div>
+                        </div>
+                        <div class="offer-form-row clearfix">
+                            <div class="offer-form-col offer-col-adult clearfix">
+                                <label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
+                                <input type="text" id="offer-audit-adult" value="2" required>
+                                <label class="offer-col-controls" for="offer-audit-adult"></label>
+                            </div>
+                            <div class="offer-form-col offer-col-junior clearfix">
+                                <label class="offer-form-label" for="offer-audit-junior">Детей:</label>
+                                <input type="text" id="offer-audit-junior" value="1" required>
+                                <label class="offer-col-controls" for="offer-audit-junior"></label>
+                            </div>
+                        </div>
+                        <button class="offer-form-btn" type="submit">Найти</button>
+                    </form>
+                </div>
+            </div>
         </div>
         <div class="map">
             <figure class="map-image">
@@ -113,31 +142,4 @@
             <a class="footer-copyright-htmlacademy" href="#"></a>
         </p>
     </footer>
-    <div class="offer-form">
-        <form method="post" action="/search">
-            <div class="offer-form-dates">
-                <div class="offer-form-row clearfix">
-                    <label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
-                    <input type="date" id="offer-arrive-date" required>
-                </div>
-                <div class="offer-form-row clearfix">
-                    <label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
-                    <input type="date" id="offer-departure-date" required>
-                </div>
-            </div>
-            <div class="offer-form-row clearfix">
-                <div class="offer-form-col offer-col-adult clearfix">
-                    <label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
-                    <input type="text" id="offer-audit-adult" value="2" required>
-                    <label class="offer-col-controls" for="offer-audit-adult"></label>
-                </div>
-                <div class="offer-form-col offer-col-junior clearfix">
-                    <label class="offer-form-label" for="offer-audit-junior">Детей:</label>
-                    <input type="text" id="offer-audit-junior" value="1" required>
-                    <label class="offer-col-controls" for="offer-audit-junior"></label>
-                </div>
-            </div>
-            <button class="offer-form-btn" type="submit">Найти</button>
-        </form>
-    </div>
 </body>
