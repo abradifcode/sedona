@@ -1288,7 +1288,7 @@ footer {
 .offer-col-controls:before {
     position: absolute;
     top: -19px;
-    left: 130px;
+    left: 69px;
     height: 0;
     width: 11px;
     height: 11px;
@@ -1307,7 +1307,7 @@ input:focus+.offer-col-controls:before {
 .offer-col-controls:after {
     position: absolute;
     top: -23px;
-    right: -94px;
+    right: -42px;
     height: 0;
     width: 11px;
     height: 11px;
