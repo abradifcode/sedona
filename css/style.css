@@ -1103,7 +1103,6 @@ input:focus+.offer-col-controls:after {
     font-size: 0;
     height: 256px;
     overflow: hidden;
-/*    background-color: #81b3d2;*/
 }
 
 .city-description {
