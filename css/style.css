@@ -1210,6 +1210,7 @@ footer {
 .offer-form-row label {
     display: inline-block;
     vertical-align: middle;
+    text-align: left;
     width: 110px;
 }
 
@@ -1252,6 +1253,10 @@ footer {
 
 .offer-form-col:first-child label {
     text-align: left;
+}
+
+.offer-form-dates {
+    margin-bottom: 32px;
 }
 
 .offer-form-dates input:after {
