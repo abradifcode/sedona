@@ -1127,6 +1127,7 @@ input:focus+.offer-col-controls:after {
     margin-right: auto;
     text-align: center;
 }
+
 .city-view {
     display: inline-block;
     vertical-align: top;
@@ -1150,7 +1151,7 @@ input:focus+.offer-col-controls:after {
 
 .city-description-subtitle:after {
     position: absolute;
-    top:9px;
+    top: 9px;
     right: 0;
     width: 9px;
     height: 2px;
@@ -1160,10 +1161,44 @@ input:focus+.offer-col-controls:after {
 
 .city-description-subtitle:before {
     position: absolute;
-    top:9px;
+    top: 9px;
     left: 0;
     width: 9px;
     height: 2px;
     background-color: #ffffff;
+    content: "";
+}
+
+.benefits {
+    font-size: 0;
+}
+
+.benefits-block {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    min-height: 330px;
+    padding-top: 160px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.benefits-block-title {
+    position: relative;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.benefits-block-title:before {
+    position: absolute;
+    top: -100px;
+    left: 38px;
+    width: 75px;
+    height: 75px;
+    background: 0px 0px no-repeat url("../img/sprite.png");
     content: "";
 }
