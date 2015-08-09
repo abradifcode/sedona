@@ -1081,3 +1081,90 @@ input:focus+.offer-col-controls:after {
 .card-title {
     margin: 5px;
 }
+
+.description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.description-info,
+.description-definition {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.description-definition {
+    margin-bottom: 25px;
+}
+
+.city {
+    font-size: 0;
+    height: 256px;
+    overflow: hidden;
+/*    background-color: #81b3d2;*/
+}
+
+.city-description {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    height: 310px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #81b3d2;
+    text-align: center;
+}
+
+.description-layout {
+    height: 100%;
+}
+
+.city-description p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.city-view {
+    display: inline-block;
+    vertical-align: top;
+    width: 66.66%;
+}
+
+.city-view img {
+    display: block;
+    width: 100%;
+}
+
+.city-description-title {
+    margin-bottom: 15px;
+}
+
+.city-description-subtitle {
+    position: relative;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.city-description-subtitle:after {
+    position: absolute;
+    top:9px;
+    right: 0;
+    width: 9px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+}
+
+.city-description-subtitle:before {
+    position: absolute;
+    top:9px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+}
