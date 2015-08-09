@@ -292,8 +292,8 @@ label {
 
 .card-slogan {
     font-family: "wisdom_scriptregular", sans-serif, Arial;
-    font-size: 36.7px;
-    line-height: 55px;
+    font-size: 36px;
+    line-height: 36px;
     text-transform: none;
     color: #ffffff;
 }
@@ -1021,9 +1021,9 @@ input:focus+.offer-col-controls:after {
 
 .card {
     position: relative;
-    padding-top: 66px;
-    padding-bottom: 80px;
-    background: #647e94 no-repeat url("../img/main-page-logo.jpg");
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background: #647e94 0 20% no-repeat url("../img/main-page-logo.jpg");
     background-size: 100% auto;
     text-align: center;
 }
@@ -1045,7 +1045,7 @@ input:focus+.offer-col-controls:after {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .card-subgreetings:before {
@@ -1069,11 +1069,17 @@ input:focus+.offer-col-controls:after {
 }
 
 .card-title {
-    margin: 5px;
+    margin: 10px;
+}
+
+.card-slogan {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .description {
-    padding-top: 50px;
+    padding-top: 62px;
     padding-bottom: 50px;
 }
 
