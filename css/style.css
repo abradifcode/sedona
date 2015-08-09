@@ -1308,3 +1308,32 @@ input:focus+.offer-col-controls:after {
     margin-left: auto;
     text-align: center;
 }
+
+.offer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.offer-title {
+    margin-bottom: 30px;
+}
+
+.offer-info {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 45px;
+}
+
+.offer-btn {
+    display: block;
+    width: 570px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;    
+    text-align: center;
+    text-decoration: none;
+    background-color: #766357;
+    
+}
