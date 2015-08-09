@@ -458,7 +458,7 @@ input:checked + .filter-variant:before {
     position: absolute;
     top: 9px;
     left: 10%;
-    right: 40%;
+    right: 25%;
     height: 2px;
     background-color: #ffffff;
     content: "";
@@ -495,7 +495,7 @@ input:checked + .filter-variant:before {
 }
 
 .filter-max-toggle {
-    right: 40%;
+    right: 25%;
 }
 
 .filter-btn {
