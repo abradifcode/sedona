@@ -712,7 +712,7 @@ input:checked + .filter-variant:before {
 .result-ratings-stars {
     width: 114px;
     min-height: 17px;
-    margin-bottom: 48px;
+    margin-bottom: 49px;
 }
 
 .result-ratings-good {
