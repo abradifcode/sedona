@@ -1331,9 +1331,13 @@ input:focus+.offer-col-controls:after {
     padding-top: 32px;
     padding-bottom: 32px;
     margin-right: auto;
-    margin-left: auto;    
+    margin-left: auto;
     text-align: center;
     text-decoration: none;
     background-color: #766357;
-    
+}
+
+.map {
+    height: 473px;
+    overflow: hidden;
 }
