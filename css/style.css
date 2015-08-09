@@ -321,6 +321,7 @@ label {
 .filter {
     padding-top: 29px;
     background: #647e94 no-repeat url("../img/hotel-page-logo.jpg");
+    background-size: 100% auto;
 }
 
 .filter-housing,
