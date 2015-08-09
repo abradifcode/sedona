@@ -115,19 +115,29 @@
             <a class="footer-copyright-htmlacademy" href="#"></a>
         </p>
     </footer>
-    <form class="offer-form" method="post" action="/search">
-        <div class="offer-form-dates">
-            <label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
-            <input type="date" id="offer-arrive-date" required>
-            <label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
-            <input type="date" id="offer-departure-date" required>
-        </div>
-        <div class="offer-tourists-amount">
-            <label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
-            <input type="text" id="offer-audit-adult" required>
-            <label class="offer-form-label" for="offer-audit-junior">Детей:</label>
-            <input type="text" id="offer-audit-junior" required>            
-        </div>
-        <button class="offer-form-btn" type="submit">Найти</button>
-    </form>
+    <div class="offer-form">
+        <form method="post" action="/search">
+            <div class="offer-form-dates">
+                <div class="offer-form-row clearfix">
+                    <label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
+                    <input type="date" id="offer-arrive-date" required>
+                </div>
+                <div class="offer-form-row clearfix">
+                    <label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
+                    <input type="date" id="offer-departure-date" required>
+                </div>
+            </div>
+            <div class="offer-form-row clearfix">
+                <div class="offer-form-col offer-col-adult clearfix">
+                    <label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
+                    <input type="text" id="offer-audit-adult" required>
+                </div>
+                <div class="offer-form-col offer-col-junior clearfix">
+                    <label class="offer-form-label" for="offer-audit-junior">Детей:</label>
+                    <input type="text" id="offer-audit-junior" required>
+                </div>
+            </div>
+            <button class="offer-form-btn" type="submit">Найти</button>
+        </form>
+    </div>
 </body>
