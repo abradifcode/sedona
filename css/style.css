@@ -1028,3 +1028,56 @@ input:focus+.offer-col-controls:after {
 .offer-form-btn:active {
     background-color: #5496bd;
 }
+
+.card {
+    position: relative;
+    padding-top: 66px;
+    padding-bottom: 80px;
+    background: #647e94 no-repeat url("../img/main-page-logo.jpg");
+    background-size: 100% auto;
+    text-align: center;
+}
+
+.card:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 57px;
+    background: 0 0 no-repeat url("../img/logo-shape.png");
+    background-size: 100% 57px;
+    content: "";
+}
+
+.card-subgreetings {
+    position: relative;
+    top: -17px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.card-subgreetings:before {
+    position: absolute;
+    top: 25px;
+    left: -29px;
+    width: 29px;
+    height: 2px;
+    background-color: #766357;
+    content: "";
+}
+
+.card-subgreetings:after {
+    position: absolute;
+    top: 25px;
+    right: -29px;
+    width: 29px;
+    height: 2px;
+    background-color: #766357;
+    content: "";
+}
+
+.card-title {
+    margin: 5px;
+}
