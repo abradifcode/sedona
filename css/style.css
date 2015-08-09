@@ -514,15 +514,15 @@ input:checked + .filter-variant:before {
 
 .options {
     padding-top: 29px;
-    padding-bottom: 33px;
+    padding-bottom: 30px;
     border: 1px solid #e5e5e5;
 }
 
 .options-left-column {
     box-sizing: border-box;
-    padding-left: 5%;
+    padding-left: 6%;
     float: left;
-    width: 620px;
+    width: 625px;
     font-size: 0;
 }
 
@@ -554,7 +554,7 @@ input:checked + .filter-variant:before {
     width: 70px;
     text-align: right;
     padding-top: 12px;
-    margin-right: 5%;
+    margin-right: 7%;
     font-size: 0;
 }
 
@@ -627,7 +627,7 @@ input:checked + .filter-variant:before {
     font-size: 0;
     float: left;
     width: 500px;
-    padding-left: 5%;
+    padding-left: 6%;
 }
 
 .result-housing-img,
@@ -650,7 +650,7 @@ input:checked + .filter-variant:before {
 .result-infoblock-title {
     display: block;
     max-width: 258px;
-    margin-bottom: 9px;
+    margin-bottom: 6px;
 }
 
 .result-about-housing {
@@ -678,8 +678,8 @@ input:checked + .filter-variant:before {
 .result-housing-more {
     display: block;
     width: 100%;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: #81b3d2;
     text-align: center;
 }
@@ -695,8 +695,8 @@ input:checked + .filter-variant:before {
 .result-booking-btn {
     display: block;
     width: 100%;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: #766357;
     text-align: center;
 }
@@ -712,7 +712,7 @@ input:checked + .filter-variant:before {
 .result-ratings-stars {
     width: 114px;
     min-height: 17px;
-    margin-bottom: 45px;
+    margin-bottom: 48px;
 }
 
 .result-ratings-good {
