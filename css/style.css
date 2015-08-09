@@ -183,7 +183,7 @@ label {
 .result-housing-type,
 .benefits-block-about,
 .city-description-about,
-.benefits-numbers-block,
+.benefits-block-subtitle,
 .city-description-subtitle,
 .country-description-about,
 .country-description-subtitle {
@@ -1139,12 +1139,14 @@ input:focus+.offer-col-controls:after {
     margin-bottom: 15px;
 }
 
+.benefits-block-subtitle,
 .city-description-subtitle {
     position: relative;
     width: 50px;
     margin-bottom: 20px;
 }
 
+.benefits-block-subtitle:after,
 .city-description-subtitle:after {
     position: absolute;
     top: 9px;
@@ -1155,6 +1157,7 @@ input:focus+.offer-col-controls:after {
     content: "";
 }
 
+.benefits-block-subtitle:before,
 .city-description-subtitle:before {
     position: absolute;
     top: 9px;
@@ -1163,6 +1166,11 @@ input:focus+.offer-col-controls:after {
     height: 2px;
     background-color: #ffffff;
     content: "";
+}
+
+.benefits-block-subtitle:after,
+.benefits-block-subtitle:before {
+    background-color: #000000;
 }
 
 .benefits {
@@ -1283,4 +1291,23 @@ input:focus+.offer-col-controls:after {
     height: 2px;
     background-color: #ffffff;
     content: "";
+}
+
+.benefits-shorty {
+    height: 255px;
+    min-height: 255px;
+    background-color: #eeeeee;
+}
+
+.benefits-road,
+.benefits-square,
+.benefits-tourist {
+    padding-top: 47px;
+    margin-bottom: 8px;
+}
+
+.benefits-block-subtitle {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
