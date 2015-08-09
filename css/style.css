@@ -1118,10 +1118,6 @@ input:focus+.offer-col-controls:after {
     text-align: center;
 }
 
-.description-layout {
-    height: 100%;
-}
-
 .city-description p {
     margin-left: auto;
     margin-right: auto;
