@@ -1178,7 +1178,7 @@ footer {
     position: relative;
     width: 570px;
     margin-right: auto;
-    margin-left: auto;    
+    margin-left: auto;
 }
 
 .offer-btn {
@@ -1200,6 +1200,7 @@ footer {
     padding: 55px;
     font-size: 0;
     background-color: #ffffff;
+    z-index: 100;
 }
 
 .offer-form-row {
@@ -1349,11 +1350,17 @@ input:focus+.offer-col-controls:after {
 }
 
 .map {
+    position: relative;
     height: 473px;
     overflow: hidden;
 }
 
 .map-script {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 473px;
     width: 100%;
+    background-color: transparent;
+    content: "";
 }
