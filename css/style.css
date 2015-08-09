@@ -1218,3 +1218,69 @@ input:focus+.offer-col-controls:after {
     background: -207px 0px no-repeat url("../img/sprite.png");
     content: "";
 }
+
+.country {
+    font-size: 0;
+    height: 256px;
+    overflow: hidden;
+}
+
+.country-description {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    height: 310px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #81b3d2;
+    text-align: center;
+}
+
+.country-description p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.country-view {
+    display: inline-block;
+    vertical-align: top;
+    width: 66.66%;
+}
+
+.country-view img {
+    display: block;
+    width: 100%;
+}
+
+.country-description-title {
+    margin-bottom: 15px;
+}
+
+.country-description-subtitle {
+    position: relative;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.country-description-subtitle:after {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 9px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+}
+
+.country-description-subtitle:before {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+}
