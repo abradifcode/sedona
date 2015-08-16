@@ -1325,10 +1325,12 @@ footer {
     content: ""
 }
 
+.offer-col-controls:hover:before,
 input:hover+.offer-col-controls:before {
     background: -237px -103px no-repeat url(../img/sprite.png)
 }
 
+.offer-col-controls:active:before,
 input:focus+.offer-col-controls:before {
     background: -237px -118px no-repeat url(../img/sprite.png)
 }
@@ -1344,10 +1346,13 @@ input:focus+.offer-col-controls:before {
     content: ""
 }
 
+.offer-col-controls:hover:after,
 input:hover+.offer-col-controls:after {
     background: -262px -99px no-repeat url(../img/sprite.png)
 }
 
+
+.offer-col-controls:active:after,
 input:focus+.offer-col-controls:after {
     background: -262px -114px no-repeat url(../img/sprite.png)
 }
