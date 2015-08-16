@@ -43,6 +43,10 @@ figure {
     padding: 0;
 }
 
+a:focus {
+    outline: none;
+}
+
 figure {
     line-height: 0;
 }
@@ -356,6 +360,12 @@ label {
     display: block;
     margin-bottom: 27px;
     margin-left: 40px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 input + .filter-variant:before {
@@ -433,6 +443,12 @@ input:checked + .filter-variant:before {
     position: relative;
     min-height: 20px;
     margin-bottom: 25px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .filter-price-scale:before {
@@ -1209,6 +1225,12 @@ footer {
 .offer-form-row {
     font-size: 0;
     margin-bottom: 27px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .offer-form-row label {
@@ -1292,12 +1314,13 @@ footer {
 
 .offer-col-controls {
     position: relative;
+    cursor: pointer;
 }
 
 .offer-col-controls:before {
     position: absolute;
-    top: -19px;
-    left: 69px;
+    top: -1.5px;
+    left: -100px;
     height: 0;
     width: 11px;
     height: 11px;
@@ -1315,8 +1338,8 @@ input:focus+.offer-col-controls:before {
 
 .offer-col-controls:after {
     position: absolute;
-    top: -23px;
-    right: -42px;
+    top: -5px;
+    right: 10px;
     height: 0;
     width: 11px;
     height: 11px;
