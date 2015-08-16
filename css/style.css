@@ -1,35 +1,41 @@
 @charset "utf-8";
 @font-face {
     font-family: "wisdom_scriptregular";
-    src: url("../font/wisdom_script_aj-webfont.eot");
-    src: url("../font/wisdom_script_aj-webfont.eot?#iefix") format("embedded-opentype"), url("../font/wisdom_script_aj-webfont.woff") format("woff"), url("../font/wisdom_script_aj-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+
+    src: url("../font/wisdom_script_aj-webfont.eot");
+    src: url("../font/wisdom_script_aj-webfont.eot?#iefix") format("embedded-opentype"), url("../font/wisdom_script_aj-webfont.woff") format("woff"), url("../font/wisdom_script_aj-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "sullivanfill";
-    src: url("../font/sullivan-fill-webfont.eot");
-    src: url("../font/sullivan-fill-webfont.eot?#iefix") format("embedded-opentype"), url("../font/sullivan-fill-webfont.woff") format("woff"), url("../font/sullivan-fill-webfont.ttf") format("truetype"), url("../font/sullivan-fill-webfont.svg#sullivanfill") format("svg");
     font-weight: normal;
     font-style: normal;
+
+    src: url("../font/sullivan-fill-webfont.eot");
+    src: url("../font/sullivan-fill-webfont.eot?#iefix") format("embedded-opentype"), url("../font/sullivan-fill-webfont.woff") format("woff"), url("../font/sullivan-fill-webfont.ttf") format("truetype"), url("../font/sullivan-fill-webfont.svg#sullivanfill") format("svg");
 }
 
 @font-face {
     font-family: "zeroneroblack";
-    src: url("../font/zeronero-webfont.eot");
-    src: url("../font/zeronero-webfont.eot?#iefix") format("embedded-opentype"), url("../font/zeronero-webfont.woff") format("woff"), url("../font/zeronero-webfont.ttf") format("truetype"), url("../font/zeronero-webfont.svg#zeroneroblack") format("svg");
     font-weight: normal;
     font-style: normal;
+
+    src: url("../font/zeronero-webfont.eot");
+    src: url("../font/zeronero-webfont.eot?#iefix") format("embedded-opentype"), url("../font/zeronero-webfont.woff") format("woff"), url("../font/zeronero-webfont.ttf") format("truetype"), url("../font/zeronero-webfont.svg#zeroneroblack") format("svg");
 }
 
 body {
     min-width: 768px;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
-    font-family: "PT Sans", sans-serif, Arial;
+
     text-transform: uppercase;
+
+    background-color: #f2f2f2;
+
+    font-family: "PT Sans", sans-serif, Arial;
 }
 
 p,
@@ -41,10 +47,6 @@ input,
 figure {
     margin: 0;
     padding: 0;
-}
-
-a:focus {
-    outline: none;
 }
 
 figure {
@@ -60,15 +62,17 @@ label {
 }
 
 .clearfix::after {
-    content: "";
     display: table;
     clear: both;
+
+    content: "";
 }
 
 .container {
     min-width: 768px;
     max-width: 1200px;
     margin: 0 auto;
+
     background-color: #ffffff;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.3);
     -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.3);
@@ -78,11 +82,13 @@ label {
 .menu a,
 .offer-form-label,
 .offer-form-label+input {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #000000;
     text-decoration: none;
+
+    color: #000000;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .menu a:hover {
@@ -110,21 +116,24 @@ label {
 .filter-price-title,
 .filter-housing-title,
 .filter-infrastructure-title {
-    font-size: 16px;
-    line-height: 21px;
-    font-weight: 700;
     color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 .filter-btn,
 .filter-variant,
 .filter-price-controll,
 .filter-price-boundaries input {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    color: #ffffff;
     text-transform: uppercase;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .options-found,
@@ -132,11 +141,13 @@ label {
 .benefits-block-title,
 .result-infoblock-title,
 .description-definition {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #000000;
     text-decoration: none;
+
+    color: #000000;
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .result-infoblock-title:hover {
@@ -149,19 +160,23 @@ label {
 
 .options span,
 .options-variant {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #000000;
     text-decoration: none;
+
+    color: #000000;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 .options .options-found {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #000000;
     text-decoration: none;
+
+    color: #000000;
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .options-variant {
@@ -191,10 +206,11 @@ label {
 .city-description-subtitle,
 .country-description-about,
 .country-description-subtitle {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
     color: #000000;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .city-description-about,
@@ -206,11 +222,13 @@ label {
 
 .result-booking-btn,
 .result-housing-more {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
-    color: #ffffff;
     text-decoration: none;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 .result-booking-btn:active,
@@ -219,29 +237,33 @@ label {
 }
 
 .result-mark-info {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
     color: #666666;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .description-info,
 .footer-copyright-introduction {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
     color: #000000;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .offer-btn,
 .offer-form-btn,
 .city-description-title,
 .country-description-title {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #ffffff;
     text-transform: uppercase;
+
+    color: #ffffff;
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .offer-btn:active {
@@ -255,17 +277,19 @@ label {
 }
 
 .offer-title {
-    font-size: 30px;
-    line-height: 26px;
-    font-weight: 700;
     color: #000000;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .offer-info {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
     color: #000000;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .offer-form-row input {
@@ -273,75 +297,89 @@ label {
 }
 
 .card-greetings {
+    color: #81b3d2;
+
     font-family: "sullivanfill", sans-serif, Arial;
     font-size: 63px;
     line-height: 70px;
-    color: #81b3d2;
 }
 
 .card-subgreetings {
+    text-transform: none;
+
+    color: #766357;
+
     font-family: "wisdom_scriptregular", sans-serif, Arial;
     font-size: 29px;
     line-height: 44px;
-    color: #766357;
-    text-transform: none;
 }
 
 .card-title {
+    color: #ffffff;
+
     font-family: "zeroneroblack", sans-serif, Arial;
     font-size: 116px;
     line-height: 142px;
-    color: #ffffff;
 }
 
 .card-slogan {
+    text-transform: none;
+
+    color: #ffffff;
+
     font-family: "wisdom_scriptregular", sans-serif, Arial;
     font-size: 36px;
     line-height: 36px;
-    text-transform: none;
-    color: #ffffff;
 }
 
 .menu {
-    font-size: 0;
     min-height: 56px;
+
+    font-size: 0;
 }
 
 .menu a {
     display: inline-block;
-    vertical-align: top;
-    text-align: center;
+
     width: 20%;
     padding-top: 15px;
     padding-bottom: 15px;
+
+    text-align: center;
+    vertical-align: top;
 }
 
 .menu .menu-logo {
     position: relative;
+    z-index: 50;
+
     height: 56px;
     padding: 0;
-    z-index: 50;
 }
 
 .filter {
     padding-top: 29px;
+
     background: #647e94 no-repeat url("../img/hotel-page-logo.jpg");
     background-size: 100% auto;
 }
 
 .filter-housing,
 .filter-infrastructure {
-    box-sizing: border-box;
     float: left;
+
+    box-sizing: border-box;
     width: 256px;
     padding-left: 6%;
 }
 
 .filter-price {
+    float: right;
+
     box-sizing: border-box;
     width: 33%;
-    float: right;
     padding-right: 7%;
+
     text-align: center;
 }
 
@@ -357,33 +395,34 @@ label {
 
 .filter-variant {
     position: relative;
+
     display: block;
+
     margin-bottom: 27px;
     margin-left: 40px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 input + .filter-variant:before {
     position: absolute;
     top: 0;
     left: -40px;
+
     width: 20px;
     height: 20px;
-    background: -406px -32px no-repeat url("../img/sprite.png");
+
     content: "";
+
+    background: -406px -32px no-repeat url("../img/sprite.png");
 }
 
 input:checked + .filter-variant:before {
     position: absolute;
     top: 0;
     left: -40px;
+
     width: 20px;
     height: 20px;
+
     background: -380px -33px no-repeat url("../img/sprite.png");
 }
 
@@ -409,26 +448,32 @@ input:checked + .filter-variant:before {
 
 .filter-price-title {
     margin-bottom: 9px;
+
     text-align: left;
 }
 
 .filter-price-boundaries {
+    margin-bottom: 11px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 11px;
-    font-size: 0;
+
     border: 2px solid #ffffff;
     border-radius: 5px;
+
+    font-size: 0;
 }
 
 .filter-price-boundaries input {
     display: inline-block;
-    vertical-align: top;
+
     box-sizing: border-box;
     width: 50%;
-    background-color: transparent;
-    border: none;
+
     text-align: center;
+    vertical-align: top;
+
+    border: none;
+    background-color: transparent;
 }
 
 .filter-price-boundaries input:nth-child(2n+1) {
@@ -441,56 +486,63 @@ input:checked + .filter-variant:before {
 
 .filter-price-scale {
     position: relative;
+
     min-height: 20px;
     margin-bottom: 25px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .filter-price-scale:before {
     position: absolute;
     top: 9px;
-    left: 0;
     right: 10%;
+    left: 0;
+
     height: 2px;
-    background-color: rgba(255, 255, 255, .3);
+
     content: "";
+
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .filter-price-scale:after {
     position: absolute;
     top: 9px;
-    left: 0;
     right: 15%;
+    left: 0;
+
     height: 2px;
-    background-color: #ffffff;
+
     content: "";
+
+    background-color: #ffffff;
 }
 
 .filter-scale-toggle {
     position: absolute;
-    width: 20px;
     top: 0;
+
+    width: 20px;
     height: 20px;
-    background-color: #ffffff;
-    border-radius: 50%;
+
     cursor: pointer;
+
+    border-radius: 50%;
+    background-color: #ffffff;
 }
 
 .filter-scale-toggle:before {
     position: absolute;
+    z-index: 10;
     top: 8px;
     left: 8px;
+
     width: 4px;
     height: 4px;
+
+    content: "";
+
     border-radius: 50%;
     background-color: #ababab;
-    content: "";
-    z-index: 10;
 }
 
 .filter-scale-toggle:hover:before {
@@ -509,9 +561,10 @@ input:checked + .filter-variant:before {
     width: 136px;
     padding-top: 6px;
     padding-bottom: 6px;
+
     border: 2px solid #ffffff;
-    background-color: transparent;
     border-radius: 5px;
+    background-color: transparent;
 }
 
 .filter-btn:hover {
@@ -531,20 +584,24 @@ input:checked + .filter-variant:before {
 .options {
     padding-top: 29px;
     padding-bottom: 30px;
+
     border: 1px solid #e5e5e5;
 }
 
 .options-left-column {
-    box-sizing: border-box;
-    padding-left: 6%;
     float: left;
+
+    box-sizing: border-box;
     width: 625px;
+    padding-left: 6%;
+
     font-size: 0;
 }
 
 .options-left-column a,
 .options-left-column span {
     display: inline-block;
+
     vertical-align: top;
 }
 
@@ -567,22 +624,28 @@ input:checked + .filter-variant:before {
 
 .options-right-column {
     float: right;
+
     width: 70px;
-    text-align: right;
-    padding-top: 12px;
     margin-right: 7%;
+    padding-top: 12px;
+
+    text-align: right;
+
     font-size: 0;
 }
 
 .options-right-column a {
     display: inline-block;
-    vertical-align: top;
+
     width: 11px;
     height: 11px;
+
+    vertical-align: top;
 }
 
 .options-down-arrow {
     position: relative;
+
     margin-left: 12px;
 }
 
@@ -591,12 +654,15 @@ input:checked + .filter-variant:before {
     position: absolute;
     top: 0;
     left: 0;
+
     width: 0;
     height: 0;
-    border-style: solid;
-    border-width: 10px 5px 0 5px;
-    border-color: #e5e5e5 transparent transparent transparent;
+
     content: "";
+
+    border-width: 10px 5px 0 5px;
+    border-style: solid;
+    border-color: #e5e5e5 transparent transparent transparent;
 }
 
 .options-up-arrow {
@@ -635,28 +701,32 @@ input:checked + .filter-variant:before {
 .result-housing {
     padding-top: 27px;
     padding-bottom: 30px;
+
     border-bottom: 1px solid #e5e5e5;
 }
 
 .result-housing-left {
-    box-sizing: border-box;
-    font-size: 0;
     float: left;
+
+    box-sizing: border-box;
     width: 500px;
     padding-left: 6%;
+
+    font-size: 0;
 }
 
 .result-housing-img,
 .result-housing-infoblock {
     display: inline-block;
+
     vertical-align: top;
 }
 
 .result-housing-img {
     width: 135px;
     min-height: 90px;
-    padding-top: 3px;
     margin-right: 31px;
+    padding-top: 3px;
 }
 
 .result-housing-infoblock {
@@ -665,12 +735,14 @@ input:checked + .filter-variant:before {
 
 .result-infoblock-title {
     display: block;
+
     max-width: 258px;
     margin-bottom: 6px;
 }
 
 .result-about-housing {
     float: left;
+
     width: 110px;
 }
 
@@ -681,23 +753,28 @@ input:checked + .filter-variant:before {
 
 .result-about-booking {
     float: right;
+
     width: 142px;
 }
 
 .result-housing-ratings {
-    box-sizing: border-box;
     float: right;
+
+    box-sizing: border-box;
     width: 190px;
     padding-right: 5%;
 }
 
 .result-housing-more {
     display: block;
+
     width: 100%;
     padding-top: 4px;
     padding-bottom: 4px;
-    background-color: #81b3d2;
+
     text-align: center;
+
+    background-color: #81b3d2;
 }
 
 .result-housing-more:hover {
@@ -710,11 +787,14 @@ input:checked + .filter-variant:before {
 
 .result-booking-btn {
     display: block;
+
     width: 100%;
     padding-top: 4px;
     padding-bottom: 4px;
-    background-color: #766357;
+
     text-align: center;
+
+    background-color: #766357;
 }
 
 .result-booking-btn:hover {
@@ -755,7 +835,9 @@ input:checked + .filter-variant:before {
     width: 110px;
     padding-top: 3px;
     padding-bottom: 4px;
+
     text-align: center;
+
     background-color: #f2f2f2;
 }
 
@@ -766,12 +848,14 @@ footer {
 .footer-social,
 .footer-hashtag,
 .footer-copyright {
-    box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
+
+    box-sizing: border-box;
     width: 33.33%;
     min-height: 120px;
+
     text-align: center;
+    vertical-align: top;
 }
 
 .footer-hashtag {
@@ -780,39 +864,49 @@ footer {
 
 .footer-social {
     padding-top: 36px;
+
     font-size: 0;
 }
 
 .footer-social-btn {
     position: relative;
+
     display: inline-block;
-    vertical-align: top;
+
     width: 46px;
     height: 48px;
     margin-right: 5px;
+
+    vertical-align: top;
+
     background-color: #81b3d2;
 }
 
 .footer-social-btn:hover {
     position: relative;
+
     background-color: #669ec0;
 }
 
 .footer-social-btn:active {
     position: relative;
+
     background-color: #5496bd;
 }
 
 .footer-social-btn:before {
     position: absolute;
+
     width: 22px;
     height: 20px;
+
     content: "";
 }
 
 .footer-social-tw:before {
     top: 15px;
     left: 15px;
+
     background: -396px -101px no-repeat url("../img/sprite.png");
 }
 
@@ -823,6 +917,7 @@ footer {
 .footer-social-fb:before {
     top: 15px;
     left: 17px;
+
     background: -430px -99px no-repeat url("../img/sprite.png");
 }
 
@@ -833,6 +928,7 @@ footer {
 .footer-social-ytb:before {
     top: 17px;
     left: 12px;
+
     background: -464px -102px no-repeat url("../img/sprite.png");
 }
 
@@ -842,20 +938,23 @@ footer {
 
 .footer-copyright {
     padding-top: 41px;
+
     font-size: 0;
 }
 
 .footer-copyright a,
 .footer-copyright span {
     display: inline-block;
+
     vertical-align: middle;
 }
 
 .footer-copyright-glukhanko {
     width: 28px;
     height: 33px;
-    margin-left: 5px;
     margin-right: 5px;
+    margin-left: 5px;
+
     background: -304px 0px no-repeat url("../img/sprite.png");
 }
 
@@ -871,6 +970,7 @@ footer {
     width: 28px;
     height: 33px;
     margin-left: 5px;
+
     background: -340px 0px no-repeat url("../img/sprite.png");
 }
 
@@ -884,51 +984,64 @@ footer {
 
 .card {
     position: relative;
+
     padding-top: 70px;
     padding-bottom: 90px;
+
+    text-align: center;
+
     background: #647e94 0 20% no-repeat url("../img/main-page-logo.jpg");
     background-size: 100% auto;
-    text-align: center;
 }
 
 .card:after {
     position: absolute;
     bottom: 0;
     left: 0;
+
     width: 100%;
     height: 57px;
+
+    content: "";
+
     background: 0 0 no-repeat url("../img/logo-shape.png");
     background-size: 100% 57px;
-    content: "";
 }
 
 .card-subgreetings {
     position: relative;
     top: -17px;
+
     width: 200px;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+    margin-left: auto;
 }
 
 .card-subgreetings:before {
     position: absolute;
     top: 25px;
     left: -29px;
+
     width: 29px;
     height: 2px;
-    background-color: #766357;
+
     content: "";
+
+    background-color: #766357;
 }
 
 .card-subgreetings:after {
     position: absolute;
     top: 25px;
     right: -29px;
+
     width: 29px;
     height: 2px;
-    background-color: #766357;
+
     content: "";
+
+    background-color: #766357;
 }
 
 .card-title {
@@ -937,8 +1050,8 @@ footer {
 
 .card-slogan {
     width: 340px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .description {
@@ -949,8 +1062,9 @@ footer {
 .description-info,
 .description-definition {
     width: 500px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+
     text-align: center;
 }
 
@@ -959,27 +1073,33 @@ footer {
 }
 
 .city {
-    font-size: 0;
-    height: 256px;
     overflow: hidden;
+
+    height: 256px;
+
+    font-size: 0;
 }
 
 .city-description {
-    box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
+
+    box-sizing: border-box;
     width: 33%;
     height: 310px;
     padding-top: 4%;
-    padding-left: 5%;
     padding-right: 5%;
-    background-color: #81b3d2;
+    padding-left: 5%;
+
     text-align: center;
+    vertical-align: top;
+
+    background-color: #81b3d2;
 }
 
 .city-description p {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+
     text-align: center;
 }
 
@@ -990,18 +1110,22 @@ footer {
 
 .city-view {
     display: inline-block;
-    vertical-align: top;
+
     width: 67%;
+
+    vertical-align: top;
 }
 
 .city-view img {
     display: block;
+
     width: 100%;
 }
 
 .benefits-block-subtitle,
 .city-description-subtitle {
     position: relative;
+
     width: 50px;
     margin-bottom: 20px;
 }
@@ -1011,10 +1135,13 @@ footer {
     position: absolute;
     top: 9px;
     right: 0;
+
     width: 9px;
     height: 2px;
-    background-color: #ffffff;
+
     content: "";
+
+    background-color: #ffffff;
 }
 
 .benefits-block-subtitle:before,
@@ -1022,10 +1149,13 @@ footer {
     position: absolute;
     top: 9px;
     left: 0;
+
     width: 9px;
     height: 2px;
-    background-color: #ffffff;
+
     content: "";
+
+    background-color: #ffffff;
 }
 
 .benefits-block-subtitle:after,
@@ -1038,77 +1168,95 @@ footer {
 }
 
 .benefits-block {
-    box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
+
+    box-sizing: border-box;
     width: 33.33%;
     min-height: 330px;
     padding-top: 160px;
-    padding-left: 5%;
     padding-right: 5%;
+    padding-left: 5%;
+
     text-align: center;
+    vertical-align: top;
 }
 
 .benefits-block-title {
     position: relative;
+
     width: 150px;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 21px;
+    margin-left: auto;
 }
 
 .benefits-housing .benefits-block-title:before {
     position: absolute;
     top: -100px;
     left: 38px;
+
     width: 75px;
     height: 75px;
-    background: 0px 0px no-repeat url("../img/sprite.png");
+
     content: "";
+
+    background: 0px 0px no-repeat url("../img/sprite.png");
 }
 
 .benefits-food .benefits-block-title:before {
     position: absolute;
     top: -95px;
     left: 34px;
+
     width: 80px;
     height: 75px;
-    background: -100px 0px no-repeat url("../img/sprite.png");
+
     content: "";
+
+    background: -100px 0px no-repeat url("../img/sprite.png");
 }
 
 .benefits-souvenirs .benefits-block-title:before {
     position: absolute;
     top: -95px;
     left: 42px;
+
     width: 80px;
     height: 75px;
-    background: -207px 0px no-repeat url("../img/sprite.png");
+
     content: "";
+
+    background: -207px 0px no-repeat url("../img/sprite.png");
 }
 
 .country {
-    font-size: 0;
-    height: 256px;
     overflow: hidden;
+
+    height: 256px;
+
+    font-size: 0;
 }
 
 .country-description {
-    box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
+
+    box-sizing: border-box;
     width: 33%;
     height: 310px;
     padding-top: 4%;
-    padding-left: 5%;
     padding-right: 5%;
-    background-color: #81b3d2;
+    padding-left: 5%;
+
     text-align: center;
+    vertical-align: top;
+
+    background-color: #81b3d2;
 }
 
 .country-description p {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+
     text-align: center;
 }
 
@@ -1119,17 +1267,21 @@ footer {
 
 .country-view {
     display: inline-block;
-    vertical-align: top;
+
     width: 67%;
+
+    vertical-align: top;
 }
 
 .country-view img {
     display: block;
+
     width: 100%;
 }
 
 .country-description-subtitle {
     position: relative;
+
     width: 50px;
     margin-bottom: 20px;
 }
@@ -1138,24 +1290,31 @@ footer {
     position: absolute;
     top: 9px;
     right: 0;
+
     width: 9px;
     height: 2px;
-    background-color: #ffffff;
+
     content: "";
+
+    background-color: #ffffff;
 }
 
 .country-description-subtitle:before {
     position: absolute;
     top: 9px;
     left: 0;
+
     width: 9px;
     height: 2px;
-    background-color: #ffffff;
+
     content: "";
+
+    background-color: #ffffff;
 }
 
 .benefits-shorty {
     min-height: 255px;
+
     background-color: #eeeeee;
 }
 
@@ -1171,11 +1330,13 @@ footer {
 .benefits-block-subtitle {
     margin-right: auto;
     margin-left: auto;
+
     text-align: center;
 }
 
 .offer {
     padding-top: 57px;
+
     text-align: center;
 }
 
@@ -1186,12 +1347,13 @@ footer {
 .offer-info {
     width: 500px;
     margin-right: auto;
-    margin-left: auto;
     margin-bottom: 45px;
+    margin-left: auto;
 }
 
 .offer-block {
     position: relative;
+
     width: 570px;
     margin-right: auto;
     margin-left: auto;
@@ -1199,56 +1361,64 @@ footer {
 
 .offer-btn {
     display: block;
+
     width: 100%;
     padding-top: 32px;
     padding-bottom: 31px;
+
     text-align: center;
     text-decoration: none;
+
     background-color: #766357;
 }
 
 .offer-form {
     position: absolute;
+    z-index: 100;
     top: 89px;
     left: 0px;
+
     display: block;
+
     width: 460px;
     padding: 55px;
-    font-size: 0;
+
     background-color: #ffffff;
-    z-index: 100;
     -webkit-box-shadow: 0px 38px 95px -21px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 38px 95px -21px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 38px 95px -21px rgba(0, 0, 0, 0.75);
+
+    font-size: 0;
 }
 
 .offer-form-row {
-    font-size: 0;
     margin-bottom: 27px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
+    font-size: 0;
 }
 
 .offer-form-row label {
     display: inline-block;
-    vertical-align: middle;
-    text-align: left;
+
     width: 110px;
+
+    text-align: left;
+    vertical-align: middle;
 }
 
 .offer-form-row input {
     position: relative;
+
     display: inline-block;
-    vertical-align: middle;
+
     width: 301px;
     padding-top: 5px;
+    padding-right: 30px;
     padding-bottom: 5px;
     padding-left: 15px;
-    padding-right: 30px;
+
+    vertical-align: middle;
+
     border-style: none;
     background-color: #f2f2f2;
 }
@@ -1266,10 +1436,13 @@ footer {
 }
 
 .offer-form-col {
-    box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
+
+    box-sizing: border-box;
     width: 50%;
+
+    vertical-align: top;
+
     font-size: 0;
 }
 
@@ -1287,9 +1460,12 @@ footer {
 
 .offer-form-dates input:after {
     position: absolute;
+
     width: 21px;
     height: 23px;
+
     content: "";
+
     background: -131px -93px no-repeat url("../img/sprite.png");
 }
 
@@ -1307,25 +1483,28 @@ footer {
 
 .offer-form-col input {
     width: 32px;
-    padding-left: 41px;
     padding-right: 41px;
+    padding-left: 41px;
+
     text-align: center;
 }
 
 .offer-col-controls {
     position: relative;
-    cursor: pointer;
 }
 
 .offer-col-controls:before {
     position: absolute;
-    top: -1.5px;
-    left: -100px;
-    height: 0;
+    top: -19px;
+    left: 69px;
+
     width: 11px;
+    height: 0;
     height: 11px;
-    background: -237px -88px no-repeat url("../img/sprite.png");
+
     content: "";
+
+    background: -237px -88px no-repeat url("../img/sprite.png");
 }
 
 input:hover+.offer-col-controls:before {
@@ -1338,13 +1517,16 @@ input:focus+.offer-col-controls:before {
 
 .offer-col-controls:after {
     position: absolute;
-    top: -5px;
-    right: 10px;
-    height: 0;
+    top: -23px;
+    right: -42px;
+
     width: 11px;
+    height: 0;
     height: 11px;
-    background: -262px -84px no-repeat url("../img/sprite.png");
+
     content: "";
+
+    background: -262px -84px no-repeat url("../img/sprite.png");
 }
 
 input:hover+.offer-col-controls:after {
@@ -1359,6 +1541,7 @@ input:focus+.offer-col-controls:after {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 18px;
+
     border: none;
     background-color: #81b3d2;
 }
@@ -1377,16 +1560,21 @@ input:focus+.offer-col-controls:after {
 
 .map {
     position: relative;
-    height: 473px;
+
     overflow: hidden;
+
+    height: 473px;
 }
 
 .map-script {
     position: absolute;
     top: 0;
     left: 0;
-    height: 473px;
+
     width: 100%;
-    background-color: transparent;
+    height: 473px;
+
     content: "";
+
+    background-color: transparent;
 }
