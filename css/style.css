@@ -810,33 +810,33 @@ footer {
     content: ""
 }
 
-.footer-social-tw:before {
+.footer-social-twitter:before {
     top: 15px;
     left: 15px;
     background: -396px -101px no-repeat url(../img/sprite.png)
 }
 
-.footer-social-tw:active:before {
+.footer-social-twitter:active:before {
     background: -466px 0 no-repeat url(../img/sprite.png)
 }
 
-.footer-social-fb:before {
+.footer-social-facebook:before {
     top: 15px;
     left: 17px;
     background: -430px -99px no-repeat url(../img/sprite.png)
 }
 
-.footer-social-fb:active:before {
+.footer-social-facebook:active:before {
     background: -469px -32px no-repeat url(../img/sprite.png)
 }
 
-.footer-social-ytb:before {
+.footer-social-youtube:before {
     top: 17px;
     left: 12px;
     background: -464px -102px no-repeat url(../img/sprite.png)
 }
 
-.footer-social-ytb:active:before {
+.footer-social-youtube:active:before {
     background: -464px -67px no-repeat url(../img/sprite.png)
 }
 
